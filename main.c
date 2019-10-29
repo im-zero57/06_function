@@ -23,7 +23,18 @@ int get_max(int a,int b)
 		return (b);	
 }
 
-int main(void) {
+int main() {
+	int a,b;
+	a=2;
+	b=5;
+	
+	int result_sumTwo;
+	result_sumTwo = sumTwo(a,b);
+	
+	printf("the result of sum two number is %d\n",result_sumTwo);
+	printf("the result of square 2 is %d\n",square(a));
+	printf("the result of square 5 is %d\n",square(b));
+	printf("the result of larger number 2 and 5 is %d\n",get_max(a,b));
 				
 	return 0;
 }
